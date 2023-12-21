@@ -1,10 +1,7 @@
 import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import PhoneIcon from '@mui/icons-material/Phone';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import PersonPinIcon from '@mui/icons-material/PersonPin';
-import PhoneMissedIcon from '@mui/icons-material/PhoneMissed';
+import {Huha } from '../props/Myprops'
 import { useState } from 'react';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
 import { Hook } from '../components/Hook';
@@ -27,7 +24,7 @@ export default function IconPositionTabs() {
       </TabList>
     </Tabs>
     <TabPanel value={'1'}><Hook/></TabPanel>
-    <TabPanel value={'2'}> <h1>lesson 2</h1></TabPanel>
+    <TabPanel value={'2'}> <h1><Huha/></h1></TabPanel>
     <TabPanel value={'3'}> <h1>lesson 3</h1></TabPanel>
     <TabPanel value={'4'}> <h1>lesson 4</h1></TabPanel>
 
